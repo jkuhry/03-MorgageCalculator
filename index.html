@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Your Home Morgage Calculator</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+   <!--section title and classes -->
+    <section class="section">
+        <header class="header">
+            <h1>Your Mortgage Calculator</h1>
+            <h3>Find out what your monthly payments will be!</h3>
+            
+        </header>
+        <br>
+        
+        <div class="div">
+        <label for="MorgLoanBalance">Loan balance</label>
+        <input type="number" id="MorgLoanBalance">
+        </div>
+        <div> 
+        <label for="AnnualPR">Interest Rate (%)</label>
+        <input type="number" id="AnnualPR">
+        </div>
+
+        <div>
+        <label for="LoanTermYrs">Loan Term (years)</label>
+        <input type="number" id="LoanTermYrs">
+        </div>
+
+        <div>
+        <label for="periodPop">Period</label>
+        <select id="periodPop" class="pPop"></select>
+        </div>
+        <br>
+        <button type="button" id="yourBtn">Calculate Monthly Morgage</button>
+        
+
+        <br>
+        
+        <p id="output"></p>
+
+        <br>
+
+
+   
+</section>
+
+    <!--script file read-->
+    <script src="index.js"></script>
+</body>
+
+</html>
+

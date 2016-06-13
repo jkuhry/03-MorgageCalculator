@@ -1,0 +1,51 @@
+
+.header {
+	font-family: sans-serif;
+	font-weight: bold;
+   
+}
+
+.section {
+   text-align: center;
+   margin-top: 80px;
+   border: ridge;
+   border-radius: 20%;
+   margin-right: 30%;
+   margin-left: 30%;
+   padding: 10px;
+   border-color: gray;
+   background: white;
+
+
+}
+
+div {
+  padding: 15px;
+
+
+}
+
+button {
+  background-color: red;
+  border: solid;
+  border-radius: 10%;
+
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  
+
+
+}
+
+body {
+  background: url(pics/homebackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  
+  
+
+}
