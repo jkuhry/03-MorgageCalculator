@@ -37,7 +37,7 @@ $(function() {
         var finalCal = Mbalance * IntrQuot; 
     
 
-
+//output to print//
 
        
         $("#output").html("Your monthly payment would be $" + parseInt(finalCal) + " hope this helps you!");
@@ -47,4 +47,6 @@ $(function() {
 
 });
 });
+
+//jk/sb/jl
 
